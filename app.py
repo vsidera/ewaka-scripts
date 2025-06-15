@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 from utils.bolt import process_bolt_csv_files
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/')
 def index():

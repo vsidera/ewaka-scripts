@@ -2,5 +2,7 @@ Flask
 pandas
 gunicorn
 psycopg2-binary
+flask-cors
+
 # add your DB driver here if needed
 # e.g., psycopg2-binary for PostgreSQL
