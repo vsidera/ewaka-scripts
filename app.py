@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify
 from utils.bolt import process_bolt_csv_files
+from flask_cors import CORS
 
 app = Flask(__name__)
 CORS(app)
